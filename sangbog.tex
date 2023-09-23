@@ -1,0 +1,17 @@
+\batchmode
+\documentclass[article,oneside,a5paper,10pt]{memoir}
+\input{songbookpreamble}
+\begin{document}%
+\nonstopmode%
+\setcounter{collectmore}{3}%
+Sangbogens forside\\
+\noindent\includegraphics[width=0.5\textwidth]{forside}
+\thispagestyle{empty}\clearpage
+Her er en sangbog
+
+\tableofcontents\clearpage%
+\input{nano.tex}\clearpage%
+\setcounter{chapter}{11}\input{fulbertogbeatrice.tex}\clearpage%
+
+\batchmode%
+\end{document}
